@@ -171,6 +171,13 @@ li {
   background-color: #998675;
   border-radius: 3px;
   margin-bottom: 329px;
+  transition: 0.2s ease-out;
+}
+
+.m-block-link:hover {
+  background-color: #95653b;
+  transition: 0.2s ease-out;
+  
 }
 
 .m-block-list {
