@@ -25,7 +25,6 @@ li {
 .header {
   padding: 40px 376px 0;
   margin: 0 auto;
-  background-color: gray;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,20 +60,135 @@ li {
   color: #ffffff;
 }
 
+.h-menu-item-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.h-menu-item-link:hover {
+  text-decoration: none;
+  color: #c7b299;
+}
+
 .h-right {
   display: flex;
   justify-content: space-between;
   gap: 28px;
 }
 
-.h-right-cart {
+.h-right-cart-link {
+  display: block;
   background-image: url(../img/icon_cart.png);
   width: 18px;
   height: 24px;
 }
 
-.h-right-search {
+.h-right-search-link {
+  display: block;
   background-image: url(../img/icon_search.png);
   width: 24px;
   height: 24px;
+}
+
+.main {
+  margin-top: -96px;
+}
+
+.m-block {
+  background-image: url(../img/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 381px;
+  padding-bottom: 40px;
+}
+
+.m-block::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 475px;
+  left: 150px;
+  background-image: url(../img/left.png);
+  width: 40px;
+  height: 73px;
+  opacity: 0.5;
+}
+
+.m-block::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 475px;
+  right: 150px;
+  background-image: url(../img/right.png);
+  width: 40px;
+  height: 73px;
+  opacity: 0.5;
+}
+
+.m-block-subtitle {
+  font-family: Raleway;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.m-block-title {
+  font-family: Raleway;
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 19px;
+}
+
+.m-block-description {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  width: 570px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 52px;
+}
+
+.m-block-link {
+  display: block;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 14px;
+  width: 170px;
+  margin: 0 auto;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 21px 38px;
+  background-color: #998675;
+  border-radius: 3px;
+  margin-bottom: 329px;
+}
+
+.m-block-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.m-block-pag {
+  display: block;
+  width: 11px;
+  height: 11px;
+  opacity: 0.5;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.m-block-pag:hover {
+  background-color: rgba(255, 255, 255, 0.0);
+  outline: 2px solid #d3c1ad;
 }
