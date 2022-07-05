@@ -213,6 +213,7 @@ li {
   text-transform: uppercase;
   color: #ffffff;
   padding: 21px 38px;
+  box-shadow: inset 0px -3px 0px 0px #736357;
   background-color: #998675;
   border-radius: 3px;
   margin-bottom: 329px;
@@ -516,6 +517,7 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 30px;
+  margin-bottom: 40px;
 }
 
 .m-projects-block {
@@ -618,4 +620,90 @@ li {
   font-weight: 300;
   color: #d1d1d1;
   display: block;
+}
+
+.m-projects-button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 45px;
+  border: none;
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #998675;
+  box-shadow: inset 0px -3px 0px 0px #736357;
+  border-radius: 3px;
+  transition: 0.2s ease-out;
+}
+
+.m-projects-button:hover {
+  background-color: #95653b;
+  transition: 0.2s ease-out;
+}
+
+.m-projects-button:active {
+  background-color: green;;
+  transition: 0.2s ease-out;
+}
+
+.m-video {
+position: relative;
+}
+
+.m-video-player {
+
+}
+
+.m-video-txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  padding-top: 210px;
+}
+
+.m-video-txt-button {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  background-image: url(../img/play-button.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  background-color:rgba(0,0,0,0.0);
+  margin-bottom: 44px;
+}
+
+.m-video-txt-title {
+  font-family: Raleway;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 29px;
+}
+
+.m-video-txt-decription {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.m-video-txt-time {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #c7b299;
 }
