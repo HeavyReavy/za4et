@@ -534,6 +534,7 @@ li {
 
 .m-projects-block:hover {
   background-color: #362f2d;
+  position: relative;
 }
 
 .m-projects-block:hover .m-project-block-wrapper::before {
@@ -550,6 +551,34 @@ li {
 
 .m-projects-block:hover .m-projects-block-img {
   filter: brightness(40%);
+}
+
+.m-projects-block:hover:before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 106px;
+  left: 144px;
+  z-index: 1;
+  background-image: url(../img/project-link.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.m-projects-block:hover:after {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  background-image: url(../img/project-lupa.svg);
+  top: 106px;
+  left: 198px;
+  z-index: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .m-projects-block-img {
