@@ -707,3 +707,63 @@ position: relative;
   font-weight: 400;
   color: #c7b299;
 }
+
+.m-mobile {
+  position: relative;
+}
+
+.m-mobile-img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 423px;
+  width: 423px;
+  height: 616px;
+}
+
+.m-mobelr-wrapper {
+  padding: 195px 388px 179px 875px;
+}
+
+.m-mobile-title {
+  font-family: Raleway;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #555555;
+  padding-bottom: 40px;
+}
+
+.m-mobile-description {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #8c8c8c;
+  padding-bottom: 45px;
+}
+
+.m-mobile-list {
+
+}
+
+.m-mobile-item {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #8c8c8c;
+  padding-left: 100px;
+  position: relative;
+}
+
+.m-mobile-item:before {
+  display: block;
+  content: "";
+  width: 21px;
+  height: 21px;
+  background-image: url(../img/arrow-list.svg);
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 5px
+}
