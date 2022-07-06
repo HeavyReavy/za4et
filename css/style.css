@@ -1132,6 +1132,7 @@ li {
   line-height: 20px;
   font-weight: 300;
   color: #00bff3;
+  text-decoration: none;
 }
 
 .footer-top-description:nth-child(6) .footer-top-description-link {
@@ -1209,8 +1210,10 @@ li {
 
 .waxom {
   color: #959595;
+  text-decoration: none;
 }
 
- .footer-bottom-list1 > .footer-bottom-item:nth-child(3) {
+ .footer-bottom-list1 > .footer-bottom-item:nth-child(3) > a {
   color: #c7b299;
+  text-decoration: none;
  }
