@@ -356,12 +356,15 @@ li {
 .m-slider-wrapper {
   display: block;
   position: relative;
-  margin-bottom: 40px;
   padding-top: 520px;
 }
 
 .m-slider-img {
   width: 770px;
+}
+
+.m-slider-img > img {
+  vertical-align: bottom;
 }
 
 .m-slider-img:nth-child(1) {
