@@ -875,10 +875,16 @@ li {
   transition: 0.2s ease-in-out;
 }
 
+.m-post-block:hover .m-post-block-img {
+  filter: brightness(30%);
+  transition: 0.2s ease-in-out;
+}
+
 .m-post-block-img {
   vertical-align: bottom;
   height: auto;
-  width: 100%
+  width: 100%;
+  transition: 0.2s ease-in-out;
 }
 
 .m-post-block-time {
