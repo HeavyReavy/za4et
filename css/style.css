@@ -658,8 +658,6 @@ li {
   position: relative;
 }
 
-.m-video-player {}
-
 .m-video-txt {
   position: absolute;
   top: 0;
@@ -745,8 +743,6 @@ li {
   color: #8c8c8c;
   padding-bottom: 45px;
 }
-
-.m-mobile-list {}
 
 .m-mobile-item {
   font-family: Montserrat;
